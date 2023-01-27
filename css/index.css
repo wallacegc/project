@@ -1,0 +1,22 @@
+.spiel {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 1px;
+    margin: auto;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.spiel h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.spiel:hover {
+    border-color: blue;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}

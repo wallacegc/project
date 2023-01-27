@@ -1,0 +1,14 @@
+.geviert {
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 1px;
+    margin: auto;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.geviert:hover {
+    border-color: blue;
+}
